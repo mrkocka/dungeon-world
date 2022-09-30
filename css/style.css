@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.js-invisible {
+  display: none;
+}
+
+.js-visible {
+  display: flex;
+}
+
+.center-area {
+  width: 28rem;
+  height: 40rem;
+  border-radius: 22px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#logo {
+  /*  background-color: rgba(255, 255, 0, 0.37); */
+  height: 30%;
+  text-align: center;
+}
+
+#logo img {
+  width: 10.5rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.box {
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(165, 42, 42, 0.39);
+}
+
+/*-------------------------------------------------HOME-----------------------------------------------------------*/
+
+.button-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+button {
+  background-color: black;
+  color: ghostwhite;
+  min-width: 12rem;
+  height: 3rem;
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Arima", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  outline: 1px solid black;
+  cursor: pointer;
+}
+
+/*-------------------------------------------------DOWNLOAD-----------------------------------------------------------*/
+
+#download {
+  gap: 2.9rem;
+}
+
+/*------------------------------------------------- USEFUL-----------------------------------------------------------*/
+
+#useful {
+  gap: 2rem;
+}
+
+.useful-button-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.useful-button-list li a {
+  text-decoration: none;
+}
+
+.fgen {
+  min-width: 15rem;
+  height: 2.8rem;
+}
+
+.fgen-bc {
+  background-color: rgba(0, 0, 255, 0.445);
+}
+
+.namegen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)),
+    url(../img/fantasyname2.png);
+  background-position: center;
+  background-size: cover;
+  color: ghostwhite;
+  border: none;
+}
+
+
+
+/*------------------------------------------------- IMPRESSUM-----------------------------------------------------------*/
+
+#footer {
+  /* background-color: rgba(210, 105, 30, 0.39); */
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer a:hover {
+  color: rgba(0, 0, 0, 0.616);
+  cursor: pointer;
+}
+/*------------------------------------------------- CHARACTER CREATION-----------------------------------------------------------*/
+
+#character-creation {
+  width: 40rem;
+  height: 20rem;
+  background-color: rgba(0, 0, 255, 0.548);
+}
